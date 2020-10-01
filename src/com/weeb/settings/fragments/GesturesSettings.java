@@ -34,7 +34,7 @@ import android.view.ViewGroup;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.weeb.settings.R;
+import com.android.settings.R;
 
 public class GesturesSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
