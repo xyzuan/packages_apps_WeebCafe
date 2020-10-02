@@ -16,7 +16,7 @@
 
 package com.weeb.settings.preferences;
 
-import android.conte.nt.Context;
+import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -24,7 +24,7 @@ import android.view.ViewParent;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.support.v7.preference.*;
+import androidx.preference.*;
 
 import com.android.settings.R;
 

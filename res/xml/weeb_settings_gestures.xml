@@ -18,11 +18,23 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/gestures_title"
+    android:summary="@string/gestures_summary"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!--Double Tap to Sleep -->
-    <string name="double_tap_gestures_category_title">Double tap gestures</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep on status bar</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+   <PreferenceCategory
+        android:key="double_tap_gestures_category"
+        android:title="@string/double_tap_gestures_category_title">
+
+    <com.weeb.settings.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:defaultValue="false" />
+
+    <com.weeb.settings.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_sleep_lockscreen_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
     
 </PreferenceScreen>

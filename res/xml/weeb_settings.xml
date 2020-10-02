@@ -19,7 +19,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/weeb_settings_title" >
-
+        <!-- Weeb Dashboard -->
+        <PreferenceScreen
+            android:key="weeb_dashboard" 
+            android:layout="@layout/weeb_dashboard"/>
+        
         <!-- Status Bar -->
         <com.weeb.settings.preferences.CardviewPreference
             android:key="statusbar_category"
