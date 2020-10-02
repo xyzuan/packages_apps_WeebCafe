@@ -33,15 +33,15 @@
     <string name="notifications_title">Notifications</string>
 
     <!-- Categories Summary -->
-    <string name="button_summary">Lorem ipsum .......</string>
-    <string name="gestures_summary">Lorem ipsum .......</string>
-    <string name="lockscreen_summary">Lorem ipsum .......</string>
-    <string name="misc_summary">Lorem ipsum .......</string>
-    <string name="navbar_summary">Lorem ipsum .......</string>
-    <string name="powermenu_summary">Lorem ipsum .......</string>
-    <string name="quicksettings_summary">Lorem ipsum .......</string>
-    <string name="statusbar_summary">Lorem ipsum .......</string>
-    <string name="notifications_summary">Lorem ipsum .......</string>
+    <string name="button_summary">Botan ボタン</string>
+    <string name="gestures_summary">Jesuchā ジェスチャー</string>
+    <string name="lockscreen_summary">Rokku gamen ロック画面</string>
+    <string name="misc_summary">Sonohoka その他</string>
+    <string name="navbar_summary">Nabigēshonbā ナビゲーションバー</string>
+    <string name="powermenu_summary">Dengen menyū 電源メニュー</string>
+    <string name="quicksettings_summary">Kuikku settei クイック設定</string>
+    <string name="statusbar_summary">Sutētasubā ステータスバー</string>
+    <string name="notifications_summary">Tsūchi 通知</string>
 
 
     <!-- Global Actions -->
